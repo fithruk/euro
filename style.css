@@ -1,0 +1,858 @@
+
+@font-face {
+    font-family: aeonik;
+    src: url(../eurosport/fonts/Aeonik-Regular.otf);
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.header {
+    height: fit-content;
+}
+
+.header_inner {
+    width: 90%;
+    margin:20px auto 20px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    
+    
+}
+
+.logo_box {
+    width: auto;
+    height: auto;
+}
+
+.logo_img {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+.nav_main_link {
+    font-size: 14px;
+    color: #e6e6e6;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: aeonik;
+    position: relative;
+}
+
+.blue {
+    width: 180%;
+    height: 5px;
+    display: block;
+    background-color: #005cff;
+    position: absolute;
+    bottom: -25px;
+    left: -15px;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #e6e6e6;
+    border-right: 2px solid #e6e6e6;
+    position: absolute;
+    right: -20px;
+    top: 1px;
+    transform: rotate(45deg);
+
+}
+
+.search_box {
+    width: 12%;
+    display: inline-flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.search_img_box {
+    display: inline-flex;
+    
+}
+
+.search_img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    position:relative;
+    top: 5px;
+}
+
+.sub_header_inner {
+    background-color: #1a1a1a;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #005cff;
+}
+.sub_nav {
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+.sub_header_link {
+    color: #fff;
+    font-size: 12px;
+    font-family: aeonik;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+}
+
+.sub_header_link:first-child {
+    font-weight: 700;
+}
+
+.sub_arrow {
+    width: 7px;
+    height: 7px;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    position: absolute;
+    right: -20px;
+    top: 3px;
+    transform: rotate(-45deg);
+    
+}
+
+.sub_sub_header_inner {
+    width: 90%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.watch {
+    color: #e6e6e6;
+    font-size:16px;
+    font-family: aeonik;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+    margin-top: 11px;
+}
+
+.header_buttons {
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+
+.button_1 {
+    width: 50%;
+    background-color: #e60054;
+    display: flex;
+    align-items: center;
+    height: 70%;
+    cursor: pointer;
+}
+
+.button_1:hover {
+    background-color:#bd0347; ;
+}
+
+.button_link {
+    font-size: 14px;
+    font-family: aeonik;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+    font-weight: 600;
+}
+
+.button_link:nth-child(2) {
+    color: #569dff;
+    opacity: 1;
+}
+
+.hr_1 {
+    border: 0;
+    border-bottom: 1px dashed #4d4d4d;
+    background: #4d4d4d;
+    position: relative;
+    margin: 0;
+}
+
+/*video*/
+
+.video_box {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.video_file {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.sponsored {
+    width: 90%;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    margin: 50px auto 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+}
+
+.sponsored_box {
+    width: 10%;
+}
+
+.sponsored_img_box {
+    width: 10%;
+}
+.sponsored_text {
+    color: #e6e6e6;
+    font-family: aeonik;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2;
+    white-space: nowrap;
+}
+
+.sponsored_img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.motorsports {
+    width: 90%;
+    margin: auto;
+    text-align: start;
+}
+.motorsports_sup_title {
+    color: #b3b3b3;
+    font-size:12px;
+    font-family: aeonik;
+    margin-bottom: 6px;
+}
+
+.motorsports_title {
+    font-size: 17px;
+    color: #e6e6e6;
+    font-family: aeonik;
+    margin-bottom: 6px;
+}
+
+
+.p_text {
+    font-size: 18px;
+    color: #e6e6e6;
+    font-family: aeonik;
+    margin-bottom: 18px;
+}
+
+.post_time {
+    font-size: 14px;
+    font-family: aeonik;
+    color: #b3b3b3;
+    margin-bottom: 60px;
+}
+/*WHAT'S ON*/
+
+.whats_on {
+    width: 100%; 
+    background-color: #0f0f0f;
+    padding-top: 20px;
+}
+
+.contaner {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.whats_text {
+    font-family: aeonik;
+    font-size: 24px;
+    color: #e6e6e6;
+    margin-bottom: 50px;
+}
+
+.whats_box {
+    display: flex;
+    overflow: hidden;justify-content: space-between;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.whats_item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sub_sub_header_inner_mod {
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whats_arrows {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.arrow_item {
+    width: 50px;
+    height: 50px;
+    background-color: #f7f7f7;
+    position: relative;
+    cursor: pointer;
+}
+
+.arrow_item:first-child{
+    opacity: .4;
+}
+
+.arrow_img_prev{
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #6d6d6d;
+    border-right: 5px solid #6d6d6d;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    transform: rotate(130deg);
+    
+}
+
+
+
+.arrow_img_next{
+    transform: rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #6d6d6d;
+    border-right: 5px solid #6d6d6d;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+/*RELATED*/
+
+.related {
+    width: 100%; 
+    background-color: #0f0f0f;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+
+
+.related_text {
+    font-family: aeonik;
+    font-size: 24px;
+    color: #e6e6e6;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.related_box {
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.related_item {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+    cursor: pointer;
+    min-width: 350px;
+}
+
+.related_img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.footer {
+    width: 100%;
+}
+.footer_header {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo_box {
+    width: auto;
+}
+
+.change {
+    display: inline-flex;
+    align-items: center;
+    width: 40%;
+    white-space: nowrap;
+}
+
+.change_text {
+    font-family: aeonik;
+    font-size: 12px;
+    color: #e6e6e6;
+    margin: 0 12px 0 0;
+}
+
+.change_country {
+    font-family: aeonik;
+    font-size: 16px;
+    color: #e6e6e6;
+    margin: 0 12px 0 0;
+    padding-bottom: 3px;
+}
+
+.change_arrow {
+    width: 10px;
+    height: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    transform: rotate(45deg);
+}
+
+.change_button {
+    width: 30%;
+    height:30px;
+    border: 3px solid #e6e6e6;
+    margin-left: 15px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.change_button:hover {
+    background-color: #333333;
+}
+
+.change_link {
+    margin: auto;
+    font-family: aeonik;
+    font-size: 14px;
+    font-weight: 700;
+    color: #e6e6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main_footer {
+   border-top: 1px solid #e6e6e6;
+   border-bottom: 1px solid #e6e6e6;
+   display: inline-flex;
+   width: 100%;
+}
+
+.footer_item {
+    width: 25%;
+    margin-left: 20px;
+}
+
+.footer_item:first-child {
+    margin-left: 5%;
+}
+
+.footer_list {
+    padding-left: 0;
+    list-style-type: none;
+    font-family: aeonik;
+    font-size: 12px;
+    color: #b3b3b3;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+
+.footer_links {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b3b3b3;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: aeonik;
+}
+
+.footer_links:last-child {
+    margin-bottom: 40px;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+
+}
+.rights {
+    width: auto;
+}
+
+.rights_text {
+    color: #f7f7f7;
+    font-family: aeonik;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.social_box {
+    display: flex;
+    width: 17%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_item {
+    width: 22%;
+    height: auto;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.social_icon {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    margin: auto;
+}
+
+@media (min-width: 1920px){
+    .search_img {
+        width: 24px;
+        height: 26px;
+        object-fit: contain;
+    }
+    .header_buttons {
+        width: 30%;
+    }
+
+    .sub_sub_header_inner {
+        align-items: center;
+    }
+
+   
+
+    .arrow {
+        width: 20px;
+        height: 20px;
+        right: -45px;
+        top: 0;
+    }
+
+    .sub_arrow  {
+        width: 15px;
+        height: 15px;
+        right: -20px;
+        top: 10px;
+    }
+    .change_arrow{
+        margin-left: 10px;
+        border-bottom: 3px solid #e6e6e6;
+        border-right: 3px solid #e6e6e6;
+    }
+    .header_buttons {
+        width: 30%;
+    }
+    .sub_arrow {
+        right: -15px;
+        top: 5px;
+    }
+    
+
+
+    .sub_header_link {
+        
+        font-size: 24px;
+        
+    }
+    .nav_main_link {
+        font-size: 28px;
+        
+    }
+    .watch {
+        font-size: 28px;
+    }
+    .button_link {
+        font-size: 24px;
+    }
+    .sponsored_text {
+        font-size: 24px;
+    }
+    .motorsports_sup_title{
+        font-size: 24px;
+    }
+    .motorsports_title {
+        font-size: 34px;
+
+    }
+
+    .p_text{
+        font-size: 30px;
+    }
+    .post_time {
+        font-size: 24px;
+    }
+
+    .change_text {
+        font-size: 22px;
+    }
+    .change_country {
+        font-size: 32px;
+    }
+    .change_link {
+        font-size: 28px;
+    }
+
+    .footer_list {
+        font-size: 24px;
+    }
+    .footer_links {
+        font-size: 24px;
+    }
+    .rights_text {
+        font-size: 24px;
+    }
+}
+@media (min-width: 1600px){
+    .search_img {
+        width: 24px;
+        height: 26px;
+        object-fit: contain;
+    }
+    .header_buttons {
+        width: 30%;
+    }
+
+    .sub_sub_header_inner {
+        align-items: center;
+    }
+
+    .change_arrow {
+        margin-left: 10px;
+        border-bottom: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+    }
+
+    .arrow {
+        width: 15px;
+        height: 15px;
+        right: -30px;
+        top: 0;
+    }
+
+    .sub_arrow  {
+        width: 15px;
+        height: 15px;
+        right: -20px;
+        top: 10px;
+    }
+    .change_arrow{
+        margin-left: 10px;
+        border-bottom: 3px solid #e6e6e6;
+        border-right: 3px solid #e6e6e6;
+    }
+    .header_buttons {
+        width: 30%;
+    }
+    .sub_arrow {
+        right: -15px;
+        top: 5px;
+    }
+    
+
+
+    .sub_header_link {
+        
+        font-size: 24px;
+        
+    }
+    .nav_main_link {
+        font-size: 28px;
+        
+    }
+    .watch {
+        font-size: 28px;
+    }
+    .button_link {
+        font-size: 24px;
+    }
+    .sponsored_text {
+        font-size: 24px;
+    }
+    .motorsports_sup_title{
+        font-size: 24px;
+    }
+    .motorsports_title {
+        font-size: 34px;
+
+    }
+
+
+    .sub_header_link {
+        
+        font-size: 20px;
+        
+    }
+    .nav_main_link {
+        font-size: 24px;
+        
+    }
+    .watch {
+        font-size: 24px;
+    }
+    .button_link {
+        font-size: 20px;
+    }
+    .sponsored_text {
+        font-size: 20px;
+    }
+    .motorsports_sup_title{
+        font-size: 20px;
+    }
+    .motorsports_title {
+        font-size: 30px;
+
+    }
+
+    .p_text{
+        font-size: 26px;
+    }
+    .post_time {
+        font-size: 20px;
+    }
+
+    .change_text {
+        font-size: 18px;
+    }
+    .change_country {
+        font-size: 28px;
+    }
+    .change_link {
+        font-size: 24px;
+    }
+
+    .footer_list {
+        font-size: 20px;
+    }
+    .footer_links {
+        font-size: 20px;
+    }
+    .rights_text {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1400px){
+    .arrow {
+        top: 5px;
+    }
+    
+    .search_img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .sub_header_link {
+        
+        font-size: 18px;
+        
+    }
+    .nav_main_link {
+        font-size: 22px;
+        
+    }
+    .watch {
+        font-size: 22px;
+    }
+    .button_link {
+        font-size: 18px;
+    }
+    .sponsored_text {
+        font-size: 18px;
+    }
+    .motorsports_sup_title{
+        font-size: 18px;
+    }
+    .motorsports_title {
+        font-size: 28px;
+
+    }
+
+    .p_text{
+        font-size: 24px;
+    }
+    .post_time {
+        font-size: 18px;
+    }
+
+    .change_text {
+        font-size: 16px;
+    }
+    .change_country {
+        font-size: 26px;
+    }
+    .change_link {
+        font-size: 22px;
+    }
+
+    .footer_list {
+        font-size: 18px;
+    }
+    .footer_links {
+        font-size: 18px;
+    }
+    .rights_text {
+        font-size: 18px;
+    }
+    .change_arrow {
+        margin-left: 10px;
+        border-bottom: 2px solid #e6e6e6;
+        border-right: 2px solid #e6e6e6;
+    }
+}
+    
