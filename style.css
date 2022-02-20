@@ -57,7 +57,7 @@ body {
     display: block;
     background-color: #005cff;
     position: absolute;
-    bottom: -25px;
+    bottom: -27px;
     left: -15px;
 }
 
@@ -68,7 +68,7 @@ body {
     border-right: 2px solid #e6e6e6;
     position: absolute;
     right: -20px;
-    top: 1px;
+    top: -1px;
     transform: rotate(45deg);
 
 }
